@@ -664,8 +664,4 @@ iStaging
 
 <!-- .slide: data-background="media/img/demo-vr-skull.png" -->
 
-```html
-<iframe src="https://odl-skull.surge.sh/"></iframe>
-```
-
-<div class="stretch" data-aframe-scene="/scenes/80s.html"></div>
+<div class="stretch" data-aframe-scene="https://odl-skull.surge.sh/"></div>
