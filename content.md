@@ -1,16 +1,28 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>A-Frame</h1>
-  <p>A web framework for building VR experiences</p>
+  <h1>Office of Digital Learning</h1>
+  <p>Virtual Reality on the Web with A-Frame and a Few of Its Friends</p>
   <p class="talk-info">
-    @andgokevin | Mozilla VR | **aframe.io**
+    Office of Digital Learning | Eberly College of Science
   </p>
 </div>
 
 <!-- NOTES -->
 - Onboard web developers into the 3D and VR world with easy-to-use tools
 - Prototype WebVR experiences faster
+
+------
+
+# Who we are
+
+<img src="/media/img/who-we-are.png">
+
+
+---
+
+# What we do
+
 
 ------
 
@@ -637,3 +649,19 @@ iStaging
 - Most work done on GitHub
 - Active community on Slack to share projects, interact, hang out, seek help
 - Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+
+------
+
+# Demos
+
+---
+
+# AR Demo
+
+<!-- .slide: data-background="media/img/demo-vr-skull.png" -->
+
+```html
+<iframe src="https://odl-skull.surge.sh/"></iframe>
+```
+
+<div class="stretch" data-aframe-scene="/scenes/80s.html"></div>
