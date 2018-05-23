@@ -1,14 +1,15 @@
-# aframe-presentation-kit
+# ODL VR Presentation
 
 Official starter slides for giving talks and presentations about A-Frame.
 
-[VIEW SLIDES](https://aframe.io/aframe-presentation-kit/#/)
+[VIEW SLIDES](https://odl-vr-presentation.surge.sh)
 
 ## Installation
 
-1. [Download the repository (.ZIP)](http://github.com/aframevr/aframe-presentation-kit/zipball/master) (>200MB)
-2. Start the local server (`npm run start`)
-3. Open `http://localhost:8080` in your browser
+1. Clone repo
+2. Install deps with `npm install`
+3. Start the local server (`npm run start`)
+4. Open `http://localhost:8080` in your browser
 
 ## Table of Contents
 

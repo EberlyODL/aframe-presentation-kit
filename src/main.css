@@ -475,3 +475,11 @@ div.slide__boilerplate + video {
 
  .backdrop {
  }
+
+ .talk-title .talk-info {
+   font-size: .7em;
+ }
+
+ .talk-title .talk-info.tiny {
+   font-size: .6em;
+ }

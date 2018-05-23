@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Official starter slides for giving talks and presentations about A-Frame.",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "deploy": "surge -d odl-vr-presentation.surge.sh"
   },
   "repository": {
     "type": "git",

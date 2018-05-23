@@ -1,10 +1,14 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>Office of Digital Learning</h1>
-  <p>Virtual Reality on the Web with A-Frame and a Few of Its Friends</p>
+  <h1>Virtual Reality on the Web with A-Frame <br>
+  and a Few of Its Friends</h1>
   <p class="talk-info">
-    Office of Digital Learning | Eberly College of Science
+    Office of Digital Learning | Eberly College of Science | Penn State University
+  </p>
+  <p class="talk-info tiny">
+    This presentation is a fork of @aframevr's </br>
+    [aframe-presentation-kit repo](https://github.com/aframevr/aframe-presentation-kit)
   </p>
 </div>
 
