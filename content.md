@@ -761,4 +761,16 @@ iStaging
 
 <a href="https://sputnik.surge.sh/" target="_blank">https://sputnik.surge.sh/</a>
 
+------
 
+# Technologies
+
+<!-- .slide: data-background="media/img/technology.jpeg" -->
+
+<!-- NOTES -->
+- Getting on my soapbox
+- Web technologies are so good 
+
+------
+
+# Thank You
