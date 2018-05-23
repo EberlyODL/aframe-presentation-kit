@@ -476,6 +476,7 @@ div.slide__boilerplate + video {
  .backdrop {
  }
 
+<<<<<<< Updated upstream
  .talk-title .talk-info {
    font-size: .7em;
  }
@@ -483,3 +484,54 @@ div.slide__boilerplate + video {
  .talk-title .talk-info.tiny {
    font-size: .6em;
  }
+=======
+ .what_we_do_img img {
+   width: 50%;
+   height: auto;
+   float: left;
+   border: 4px solid #E2801E;
+ }
+
+ .what_we_do_text {
+   display: flex;
+   font-size: 28px !important;
+   position: relative;
+   top: 20px;
+   left: 20px;
+   text-align: left;
+ }
+
+ #project-wrap {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .project-image img {
+   width: 240px;
+   height: 240px;
+   border: 4px solid #E2801E;
+   margin-right: 20px;
+ }
+
+ .criteria_img img {
+  width: 250px;
+  height: 250px;
+  float: left;
+  border: 4px solid #E2801E;
+}
+
+.criteria_text {
+  display: flex;
+  position: relative;
+  top: 45px;
+  left: 20px;
+  text-align: left;
+}
+
+#criteria_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+>>>>>>> Stashed changes

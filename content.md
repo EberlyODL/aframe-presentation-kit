@@ -27,8 +27,77 @@
 
 # What we do
 
+<div id="what_we_do_wrap">
+  <div class="what_we_do_img">
+    <img data-src="media/img/m_and_c.jpg">
+  </div>
+  <div class="what_we_do_text">
+    The Office of Digital Learning (ODL) helps the Eberly College of Science faculty and students make the most of digital learning technology. We collaboratively design and build tools for any pedagogy.  Our emphasis is on accessibility, personalization, high quality content and instruction, and a consistent and stable learning infrastructure. 
+  </div>
+</div>
 
-------
+---
+
+# Projects
+
+<div id="project-wrap">
+  <div class="project-image">
+    <img src="/media/img/elms_logo.png">
+  </div>
+  <div class="project-image">
+    <img src="/media/img/analytics.png">
+  </div>
+  <div class="project-image">
+    <img src="/media/img/oer_logo.png">
+  </div>
+  <div class="project-image">
+    <img src="/media/img/multimedia.png">
+  </div>
+  <div class="project-image">
+    <img src="/media/img/hax.png">
+  </div>
+  <div class="project-image">
+    <img src="/media/img/vr.png">
+  </div>
+</div>
+
+---
+
+# Faculty Story
+
+<!-- NOTES -->
+- We were approached by Katie Mantz (FRNSC) to create VR application of interactive crime scenes for distance learners. 
+- We were new to VR so we had zero prior experience.
+- Started researching and working with relevant tech for according to our criteria.  
+
+
+
+
+---
+
+
+
+# Criteria for Selecting Tech
+
+<div id="criteria_wrap">
+  <div class="criteria_img">
+    <img data-src="media/img/checkbox.png">
+  </div>
+  <div class="criteria_text">
+    Viable <br>
+    Accessible <br>
+    Fiscally Responsible <br>
+    Sustainable <br>
+  </div>
+</div>
+
+<!-- NOTES -->
+- Viability -  Goals of the project are accomplishable with on-hand or acquirable resources.
+- Accessibility is a university mandate as well as an ethical and moral imperative as we are stewarding the relationship between online learners and their interactions with our products.
+- Fiscal responsibility specifically balances decisions oriented towards time spent building solutions vs. purchasing existing products.
+- Sustainability for web based technology is difficult given the ever changing landscape, however, we project long-term viability based on emergent technology trends of which we spend a great deal of time researching.
+
+---
 
 # Virtual Reality
 
