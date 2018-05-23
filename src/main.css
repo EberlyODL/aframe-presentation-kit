@@ -476,7 +476,6 @@ div.slide__boilerplate + video {
  .backdrop {
  }
 
-<<<<<<< Updated upstream
  .talk-title .talk-info {
    font-size: .7em;
  }
@@ -484,7 +483,7 @@ div.slide__boilerplate + video {
  .talk-title .talk-info.tiny {
    font-size: .6em;
  }
-=======
+ 
  .what_we_do_img img {
    width: 50%;
    height: auto;
@@ -534,4 +533,3 @@ div.slide__boilerplate + video {
   justify-content: center;
 }
 
->>>>>>> Stashed changes
