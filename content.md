@@ -658,10 +658,38 @@ iStaging
 
 # Demos
 
+<!-- .slide: data-background="media/img/odl-chuck-demo.jpg" -->
+
+---
+
+# Hotspot Demo
+
+<!-- .slide: data-background="media/img/odl-spudi-master.png" -->
+
+<a href="http://odl-spudi-master.surge.sh/" target="_blank">http://odl-spudi-master.surge.sh/</a>
+
 ---
 
 # AR Demo
 
 <!-- .slide: data-background="media/img/demo-vr-skull.png" -->
 
-<div class="stretch" data-aframe-scene="https://odl-skull.surge.sh/"></div>
+<a href="https://odl-skull.surge.sh" target="_blank">https://odl-skull.surge.sh</a>
+
+---
+
+# Multiple Cameras
+
+<!-- .slide: data-background="media/img/odl-multi-cam.png" -->
+
+<a href="https://astro-animation.surge.sh" target="_blank">https://astro-animation.surge.sh</a>
+
+---
+
+# Voice Command
+
+<!-- .slide: data-background="media/img/odl-sputnik.png" -->
+
+<a href="https://sputnik.surge.sh/" target="_blank">https://sputnik.surge.sh/</a>
+
+
