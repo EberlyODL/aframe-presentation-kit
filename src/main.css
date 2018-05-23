@@ -476,7 +476,13 @@ div.slide__boilerplate + video {
  .backdrop {
  }
 
+ .talk-title h1 {
+   margin-bottom: 3em;
+   margin-bottom: 10vw;
+ }
+
  .talk-title .talk-info {
+   top: 0;
    font-size: .7em;
  }
 
