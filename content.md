@@ -1,5 +1,4 @@
-<!-- .slide: data-background="media/img/aframe.jpg" -->
-
+<!-- .slide: data-background="media/img/odlscience.png" -->
 <div class="talk-title">
   <h1>Virtual Reality on the Web with A-Frame <br>
   and a Few of Its Friends</h1>
@@ -19,14 +18,15 @@
 ------
 
 # Who we are
-
-<img src="/media/img/who-we-are.png">
-
+<!-- .slide: data-background="media/img/odlscience.png" -->
+<div class="who_we_are_img">
+  <img src="/media/img/who-we-are.png">
+</div>
 
 ---
 
 # What we do
-
+<!-- .slide: data-background="media/img/odlscience.png" -->
 <div id="what_we_do_wrap">
   <div class="what_we_do_img">
     <img data-src="media/img/m_and_c.jpg">
@@ -39,7 +39,7 @@
 ---
 
 # Projects
-
+<!-- .slide: data-background="media/img/odlscience.png" -->
 <div id="project-wrap">
   <div class="project-image">
     <img src="/media/img/elms_logo.png">
@@ -64,7 +64,7 @@
 ---
 
 # Faculty Story
-
+<!-- .slide: data-background="media/img/odlscience.png" -->
 <!-- NOTES -->
 - We were approached by Katie Mantz (FRNSC) to create VR application of interactive crime scenes for distance learners. 
 - We were new to VR so we had zero prior experience.
@@ -78,7 +78,7 @@
 
 
 # Criteria for Selecting Tech
-
+<!-- .slide: data-background="media/img/odlscience.png" -->
 <div id="criteria_wrap">
   <div class="criteria_img">
     <img data-src="media/img/checkbox.png">

@@ -483,21 +483,28 @@ div.slide__boilerplate + video {
  .talk-title .talk-info.tiny {
    font-size: .6em;
  }
- 
+
+ .who_we_are_img img {
+  border: 6px solid grey;
+ }
+
  .what_we_do_img img {
    width: 50%;
    height: auto;
    float: left;
-   border: 4px solid #E2801E;
+   border: 5px solid grey;
  }
 
  .what_we_do_text {
    display: flex;
-   font-size: 28px !important;
+   font-size: 24px !important;
    position: relative;
-   top: 20px;
+   top: 30px;
    left: 20px;
    text-align: left;
+   background-color: #fff;
+   padding: 20px !important;
+   border: 5px solid grey !important;
  }
 
  #project-wrap {
@@ -509,15 +516,14 @@ div.slide__boilerplate + video {
  .project-image img {
    width: 240px;
    height: 240px;
-   border: 4px solid #E2801E;
-   margin-right: 20px;
+   border: 6px solid grey;
+   margin-right: 10px !important;
  }
 
  .criteria_img img {
   width: 250px;
   height: 250px;
   float: left;
-  border: 4px solid #E2801E;
 }
 
 .criteria_text {
@@ -530,6 +536,7 @@ div.slide__boilerplate + video {
 
 #criteria_wrap {
   display: flex;
-  justify-content: center;
+  border: 6px solid grey;
+  background-color: #fff;
 }
 
