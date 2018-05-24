@@ -520,6 +520,25 @@ div.slide__boilerplate + video {
    border: 5px solid grey !important;
  }
 
+ .faculty_story_img img {
+  width: 250px;
+  height: auto;
+  float: left;
+  border: 5px solid grey;
+}
+
+.faculty_story_text {
+  display: flex;
+  font-size: 24px !important;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px !important;
+  border: 5px solid grey !important;
+}
+
  #project-wrap {
    display: flex;
    flex-wrap: wrap;

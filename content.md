@@ -61,21 +61,33 @@
   </div>
 </div>
 
+<!-- NOTES --> 
+
+- ELMS:LN - Primary initiative - Opensource platform that allows us to manage and deploy custom learning tools. The project is set to receive recogniztion from Apereo as a fully active project. (Nonprofit organiztion that helps cultivate opensource projects for education).
+- Learning Analytics (xAPI) - When we create / deploy these custom learning tools, we can start wiring in xAPI functionality to capture valuable data about the content being interacted with.
+- OER Schema - Allows us to bake in custom meta data like (ids,for example) to help manage, oranize, share our educational content.
+- Multimedia - Videos (OBS), annimations, graphics (SVG), etc.
+- HAX - Secondary initative of ELMS:LN team - stands for "Headless Authoring Experience" - Future WYSIWYG editor that can be applied to any platform (browser based) and handles accessiblity / OER Schema automatically. haxtheweb.org
+- Virtual Reality - and recently we started exploring VR / AR possiblities.    
+
 ---
 
 # Faculty Story
 <!-- .slide: data-background="media/img/odlscience.png" -->
-<!-- NOTES -->
-- We were approached by Katie Mantz (FRNSC) to create VR application of interactive crime scenes for distance learners. 
+<div id="faculty_story_wrap">
+  <div class="faculty_story_img">
+    <img data-src="media/img/katie.jpeg">
+  </div>
+  <div class="faculty_story_text">
+     Katie Mantz (Course / Curriculum Developer - Forensic Science) and her team were looking to create an immersive crime scene experience for learners taking the FRNSC course. We met up and started strategizing goals and criteria for the project and decided to give Virtual Reality(VR) a shot.
+  </div>
+</div>
+<!-- NOTES --> 
 - We were new to VR so we had zero prior experience.
-- Started researching and working with relevant tech for according to our criteria.  
-
-
-
+- Initially, we started looking into development in Unity but discovered a significant barrier to entry.
+- Continued researching alternative solutions according to our criteria...  
 
 ---
-
-
 
 # Criteria for Selecting Tech
 <!-- .slide: data-background="media/img/odlscience.png" -->
@@ -92,12 +104,17 @@
 </div>
 
 <!-- NOTES -->
-- Viability -  Goals of the project are accomplishable with on-hand or acquirable resources.
+- Viable -  Goals of the project are accomplishable with on-hand or acquirable resources.
 - Accessibility is a university mandate as well as an ethical and moral imperative as we are stewarding the relationship between online learners and their interactions with our products.
-- Fiscal responsibility specifically balances decisions oriented towards time spent building solutions vs. purchasing existing products.
+- Fiscal Responsibile specifically balances decisions oriented towards time spent building solutions vs. purchasing existing products.
 - Sustainability for web based technology is difficult given the ever changing landscape, however, we project long-term viability based on emergent technology trends of which we spend a great deal of time researching.
 
----
+------
+
+
+<!-- .slide: data-background="media/img/aframe_homepage.png" -->
+
+------
 
 # Virtual Reality
 
