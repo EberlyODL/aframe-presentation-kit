@@ -763,9 +763,9 @@ iStaging
 
 ------
 
-# Technologies
+# Technologies of the Future
 
-<!-- .slide: data-background="media/img/technology.jpeg" -->
+<!-- .slide: data-background="media/img/techofthefuture.jpg" -->
 
 <!-- NOTES -->
 - Getting on my soapbox
@@ -782,6 +782,21 @@ iStaging
 
 ---
 
+# Web Components
+
+<!-- .slide: data-background="media/img/webcomponents.jpeg" -->
+
+```html
+<psu-logo college="Eberly College of Science" theme="dark2"></psu-logo>
+```
+<div id="psu-logo">
+  <psu-logo college="Eberly College of Science" theme="dark2"></psu-logo>
+</div>
+
+<!-- NOTES -->
+
+---
+
 # Docker
 
 <!-- .slide: data-background="media/img/docker-containers.jpeg" -->
@@ -790,6 +805,63 @@ iStaging
 - describe the exact network we want
 - improves development experience
 - move a away from monotlith
+---
+
+# Docker
+
+<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
+
+```yml
+# App
+FROM nginx
+
+RUN rm /etc/nginx/conf.d/default.conf
+COPY ./app.conf /etc/nginx/conf.d/app.conf
+
+# Screenshot service
+FROM node:8
+
+WORKDIR /home/node/html
+COPY package-lock.json package-lock.json
+RUN npm install
+EXPOSE 3000
+```
+
+---
+
+# Docker
+
+<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
+
+```yml
+# Docker Compose
+version: '3'
+services:
+  app:
+    build: ./app
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/usr/share/nginx/html:ro
+  service_snapshot:
+    build: ./service_snapshot
+    entrypoint: npm start
+    ports:
+      - "3001:3000"
+    volumes: 
+      - ./service_snapshot:/home/node/html
+      - service_snapshot_nodemodules:/home/node/html/node_modules
+volumes:
+  service_snapshot_nodemodules:
+```
+
+---
+
+# Docker
+
+<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
+
+<img src="media/img/docker-compose-up.gif">
 
 ---
 
