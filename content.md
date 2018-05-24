@@ -761,4 +761,62 @@ iStaging
 
 <a href="https://sputnik.surge.sh/" target="_blank">https://sputnik.surge.sh/</a>
 
+------
 
+# Technologies
+
+<!-- .slide: data-background="media/img/technology.jpeg" -->
+
+<!-- NOTES -->
+- Getting on my soapbox
+- Web technologies are so good 
+
+---
+
+# Web Components
+
+<!-- .slide: data-background="media/img/webcomponents.jpeg" -->
+
+<!-- NOTES -->
+- Web Components 
+
+---
+
+# Docker
+
+<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
+
+<!-- NOTES -->
+- describe the exact network we want
+- improves development experience
+- move a away from monotlith
+
+---
+
+# Microservices
+
+<!-- .slide: data-background="media/img/microservices2.jpg" .test -->
+
+<!-- NOTES -->
+- Each piece is completely independant
+- Can add remove feature much easier
+- Can mix different technologies
+
+---
+
+# Microservices
+
+<!-- .slide: data-background="media/img/microservices2.jpg" -->
+
+<div id="microservices">
+  <img src="media/img/diagram.jpeg">
+</div>
+
+<!-- NOTES -->
+- Each piece is completely independant
+- Can add remove feature much easier
+- Can mix different technologies
+
+------
+
+# Thank You

@@ -476,7 +476,20 @@ div.slide__boilerplate + video {
  .backdrop {
  }
 
+ [data-background-image] h1 {
+   background: #E8842C;
+   padding: 0 .5em;
+   display: inline-block;
+ }
+
+ .talk-title h1 {
+   margin-bottom: 3em;
+   margin-bottom: 10vw;
+   background: none;
+ }
+
  .talk-title .talk-info {
+   top: 0;
    font-size: .7em;
  }
 
@@ -540,3 +553,6 @@ div.slide__boilerplate + video {
   background-color: #fff;
 }
 
+#microservices img {
+  height: 70vh;
+}
