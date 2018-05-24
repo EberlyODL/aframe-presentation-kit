@@ -1,0 +1,24 @@
+{
+  "name": "psu-logo",
+  "main": "psu-logo.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "paper-slider": "PolymerElements/paper-slider#^2.0.2"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^6.0.0-prerelease.5",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "homepage": "https://github.com/EberlyODL/psu-logo",
+  "_release": "ee0db542a9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ee0db542a94a9aa1db17c0eb71c6e7c2bfcb25a9"
+  },
+  "_source": "https://github.com/EberlyODL/psu-logo.git",
+  "_target": "*",
+  "_originalSource": "EberlyODL/psu-logo"
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>psu-logo demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../psu-logo.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+      demo-snippet.light-bg {
+        --demo-snippet-demo: {
+          background: lightgray;
+        }
+      }
+      demo-snippet.dark-bg {
+        --demo-snippet-demo: {
+          background: gray;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic psu-logo demo</h3>
+      <demo-snippet>
+        <template>
+          <psu-logo college="Eberly College of Science"></psu-logo>
+        </template>
+      </demo-snippet>
+      <h3>Dark theme psu-logo demo</h3>
+      <demo-snippet class="light-bg">
+        <template>
+          <psu-logo college="Eberly College of Science" theme="white"></psu-logo>
+        </template>
+      </demo-snippet>
+      <h3>Dark theme psu-logo demo</h3>
+      <demo-snippet>
+        <template>
+          <psu-logo college="Eberly College of Science" theme="dark"></psu-logo>
+        </template>
+      </demo-snippet>
+      <h3>Dark 2 theme psu-logo demo</h3>
+      <demo-snippet class="dark-bg">
+        <template>
+          <psu-logo college="Eberly College of Science" theme="dark2"></psu-logo>
+        </template>
+      </demo-snippet>
+      <h3>psu-logo specifiy word wrap</h3>
+      <demo-snippet>
+        <template>
+          <psu-logo college="Eberly College of Science" word-wrap="28"></psu-logo>
+        </template>
+      </demo-snippet>
+      <h3>Basic psu-logo edit state</h3>
+      <demo-snippet>
+        <template>
+          <psu-logo college="Eberly College of Science" word-wrap="28" editable></psu-logo>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>

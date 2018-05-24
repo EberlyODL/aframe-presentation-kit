@@ -549,3 +549,15 @@ div.slide__boilerplate + video {
 #microservices img {
   height: 70vh;
 }
+
+psu-logo {
+  font-size: .5em;
+  background: darkgrey;
+  height: 200px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#docker {
+  
+}
