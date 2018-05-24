@@ -36,6 +36,11 @@
   </div>
 </div>
 
+<!-- NOTES -->
+- We strive to help faculty and students make the most of the digital learning technology available to them.
+- We collaborateively design and build learning tools for any pedgogy.
+- and we emphasize accessiblity, personalization, quality content and instruction, and consistent / stable learning infrastructure.
+
 ---
 
 # Projects
