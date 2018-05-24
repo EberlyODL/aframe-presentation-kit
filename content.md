@@ -795,7 +795,9 @@ iStaging
 <!-- .slide: data-background="media/img/webcomponents.jpeg" -->
 
 <!-- NOTES -->
-- Web Components 
+- component architecture for the dom
+- every front-end framework has implimented this
+- haxtheweb.org
 
 ---
 
@@ -809,6 +811,21 @@ iStaging
 <div id="psu-logo">
   <psu-logo college="Eberly College of Science" theme="dark2"></psu-logo>
 </div>
+
+<!-- NOTES -->
+
+---
+
+# Web Components
+
+<!-- .slide: data-background="media/img/webcomponents.jpeg" -->
+
+<a href="https://github.com/LRNWebComponents" target="_blank">
+  <img src="media/img/lrn.png">
+</a>
+
+<!-- NOTES -->
+- checkout haxtheweb.org
 
 <!-- NOTES -->
 
@@ -901,10 +918,16 @@ volumes:
   <img src="media/img/diagram.jpeg">
 </div>
 
+---
+
+# GraphQL
+
+<img src="media/img/graphql.gif">
+
 <!-- NOTES -->
-- Each piece is completely independant
-- Can add remove feature much easier
-- Can mix different technologies
+- Graphical Query language
+- Successor to REST
+- Lots of differnt infustructure built around graphql
 
 ------
 
