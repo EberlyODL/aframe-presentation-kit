@@ -113,6 +113,7 @@
 - Accessibility is a university mandate as well as an ethical and moral imperative as we are stewarding the relationship between online learners and their interactions with our products.
 - Fiscal Responsibile specifically balances decisions oriented towards time spent building solutions vs. purchasing existing products.
 - Sustainability for web based technology is difficult given the ever changing landscape, however, we project long-term viability based on emergent technology trends of which we spend a great deal of time researching.
+- Demo FRNSC Crime Scene App
 
 ------
 
