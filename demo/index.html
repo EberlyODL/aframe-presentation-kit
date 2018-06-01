@@ -4,7 +4,7 @@
   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
   <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
   <script src="https://unpkg.com/aframe-look-at-component@0.5.1/dist/aframe-look-at-component.min.js"></script>
-  <script src="https://unpkg.com/aframe-randomizer-components@^3.0.1/dist/aframe-randomizer-components.min.js"></script> 
+  <script src="https://unpkg.com/aframe-randomizer-components@^3.0.1/dist/aframe-randomizer-components.min.js"></script>
   <script>
     AFRAME.registerComponent('hide-seek', {
       init: function () {
@@ -23,9 +23,20 @@
 <body>
   <a-scene>
     <a-assets>
-      <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
-      <img id="apereoLogo" src="https://yt3.ggpht.com/a-/AJLlDp12GVhIybiPN7eEbsYvNoxnreU3VNDwbSCRzw=s900-mo-c-c0xffffffff-rj-k-no">
+      <img id="apereoLogo" src="assets/apereo.jpg">
     </a-assets>
+
+    <a-entity environment></a-entity>
+
+    <a-entity position="0 2 -1">
+      <a-box position="0 0.2 -2"></a-box>
+    </a-entity>
+
+    <a-camera position="0 1 0">
+      <a-cursor></a-cursor>
+    </a-camera>
+
+    <a-sky material="color: #e9ffd7;"></a-sky>
   </a-scene>
 </body>
 
