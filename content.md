@@ -1,10 +1,6 @@
-<!-- .slide: data-background="media/img/odlscience.png" -->
+<!-- .slide: data-background="media/img/aframe.jpg" -->
 <div class="talk-title">
-  <h1>Virtual Reality on the Web with A-Frame <br>
-  and a Few of Its Friends</h1>
-  <p class="talk-info">
-    Office of Digital Learning | Eberly College of Science | Penn State University
-  </p>
+  <h1>Web VR with A-Frame</h1>
   <p class="talk-info tiny">
     This presentation is a fork of @aframevr's </br>
     [aframe-presentation-kit repo](https://github.com/aframevr/aframe-presentation-kit)
@@ -14,111 +10,6 @@
 <!-- NOTES -->
 - Onboard web developers into the 3D and VR world with easy-to-use tools
 - Prototype WebVR experiences faster
-
-------
-
-# Who we are
-<!-- .slide: data-background="media/img/odlscience.png" -->
-<div class="who_we_are_img">
-  <img src="/media/img/who-we-are.png">
-</div>
-
----
-
-# What we do
-<!-- .slide: data-background="media/img/odlscience.png" -->
-<div id="what_we_do_wrap">
-  <div class="what_we_do_img">
-    <img data-src="media/img/m_and_c.jpg">
-  </div>
-  <div class="what_we_do_text">
-    The Office of Digital Learning (ODL) helps the Eberly College of Science faculty and students make the most of digital learning technology. We collaboratively design and build tools for any pedagogy.  Our emphasis is on accessibility, personalization, high quality content and instruction, and a consistent and stable learning infrastructure. 
-  </div>
-</div>
-
-<!-- NOTES -->
-- We strive to help faculty and students make the most of the digital learning technology available to them.
-- We collaborateively design and build learning tools for any pedgogy.
-- and we emphasize accessiblity, personalization, quality content and instruction, and consistent / stable learning infrastructure.
-
----
-
-# Projects
-<!-- .slide: data-background="media/img/odlscience.png" -->
-<div id="project-wrap">
-  <div class="project-image">
-    <img src="/media/img/elms_logo.png">
-  </div>
-  <div class="project-image">
-    <img src="/media/img/analytics.png">
-  </div>
-  <div class="project-image">
-    <img src="/media/img/oer_logo.png">
-  </div>
-  <div class="project-image">
-    <img src="/media/img/multimedia.png">
-  </div>
-  <div class="project-image">
-    <img src="/media/img/hax.png">
-  </div>
-  <div class="project-image">
-    <img src="/media/img/vr.png">
-  </div>
-</div>
-
-<!-- NOTES --> 
-
-- ELMS:LN - Primary initiative - Opensource platform that allows us to manage and deploy custom learning tools. The project is set to receive recogniztion from Apereo as a fully active project. (Nonprofit organiztion that helps cultivate opensource projects for education).
-- Learning Analytics (xAPI) - When we create / deploy these custom learning tools, we can start wiring in xAPI functionality to capture valuable data about the content being interacted with.
-- OER Schema - Allows us to bake in custom meta data like (ids,for example) to help manage, oranize, share our educational content.
-- Multimedia - Videos (OBS), annimations, graphics (SVG), etc.
-- HAX - Secondary initative of ELMS:LN team - stands for "Headless Authoring Experience" - Future WYSIWYG editor that can be applied to any platform (browser based) and handles accessiblity / OER Schema automatically. haxtheweb.org
-- Virtual Reality - and recently we started exploring VR / AR possiblities.    
-
----
-
-# Faculty Story
-<!-- .slide: data-background="media/img/odlscience.png" -->
-<div id="faculty_story_wrap">
-  <div class="faculty_story_img">
-    <img data-src="media/img/katie.jpeg">
-  </div>
-  <div class="faculty_story_text">
-     Katie Mantz (Course / Curriculum Developer - Forensic Science) and her team were looking to create an immersive crime scene experience for learners taking the FRNSC course. We met up and started strategizing goals and criteria for the project and decided to give Virtual Reality(VR) a shot.
-  </div>
-</div>
-<!-- NOTES --> 
-- We were new to VR so we had zero prior experience.
-- Initially, we started looking into development in Unity but discovered a significant barrier to entry.
-- Continued researching alternative solutions according to our criteria...  
-
----
-
-# Criteria for Selecting Tech
-<!-- .slide: data-background="media/img/odlscience.png" -->
-<div id="criteria_wrap">
-  <div class="criteria_img">
-    <img data-src="media/img/checkbox.png">
-  </div>
-  <div class="criteria_text">
-    Viable <br>
-    Accessible <br>
-    Fiscally Responsible <br>
-    Sustainable <br>
-  </div>
-</div>
-
-<!-- NOTES -->
-- Viable -  Goals of the project are accomplishable with on-hand or acquirable resources.
-- Accessibility is a university mandate as well as an ethical and moral imperative as we are stewarding the relationship between online learners and their interactions with our products.
-- Fiscal Responsibile specifically balances decisions oriented towards time spent building solutions vs. purchasing existing products.
-- Sustainability for web based technology is difficult given the ever changing landscape, however, we project long-term viability based on emergent technology trends of which we spend a great deal of time researching.
-- Demo FRNSC Crime Scene App
-
-------
-
-
-<!-- .slide: data-background="media/img/aframe_homepage.png" -->
 
 ------
 
@@ -786,139 +677,21 @@ iStaging
 
 ------
 
-# Technologies of the Future
+# How do we integrate all of this new web weirdness?
 
-<!-- .slide: data-background="media/img/techofthefuture.jpg" -->
-
-<!-- NOTES -->
-- Getting on my soapbox
-- Web technologies are so good 
+<!-- .slide: data-background="media/img/vr-bg.jpg" -->
 
 ---
 
-# Web Components
+# Virtual Crime Scene
 
-<!-- .slide: data-background="media/img/webcomponents.jpeg" -->
-
-<!-- NOTES -->
-- component architecture for the dom
-- every front-end framework has implimented this
-- haxtheweb.org
+<img src="media/img/vr-homepage.png">
 
 ---
 
-# Web Components
+# VR App Diagram
 
-<!-- .slide: data-background="media/img/webcomponents.jpeg" -->
-
-```html
-<psu-logo college="Eberly College of Science" theme="dark2"></psu-logo>
-```
-<div id="psu-logo">
-  <psu-logo college="Eberly College of Science" theme="dark2"></psu-logo>
-</div>
-
-<!-- NOTES -->
-
----
-
-# Web Components
-
-<!-- .slide: data-background="media/img/webcomponents.jpeg" -->
-
-<a href="https://github.com/LRNWebComponents" target="_blank">
-  <img src="media/img/lrn.png">
-</a>
-
-<!-- NOTES -->
-- checkout haxtheweb.org
-
-<!-- NOTES -->
-
----
-
-# Docker
-
-<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
-
-<!-- NOTES -->
-- describe the exact network we want
-- improves development experience
-- move a away from monotlith
----
-
-# Docker
-
-<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
-
-```yml
-# App
-FROM nginx
-
-RUN rm /etc/nginx/conf.d/default.conf
-COPY ./app.conf /etc/nginx/conf.d/app.conf
-
-# Screenshot service
-FROM node:8
-
-WORKDIR /home/node/html
-COPY package-lock.json package-lock.json
-RUN npm install
-EXPOSE 3000
-```
-
----
-
-# Docker
-
-<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
-
-```yml
-# Docker Compose
-version: '3'
-services:
-  app:
-    build: ./app
-    ports:
-      - "80:80"
-    volumes:
-      - ./app:/usr/share/nginx/html:ro
-  service_snapshot:
-    build: ./service_snapshot
-    entrypoint: npm start
-    ports:
-      - "3001:3000"
-    volumes: 
-      - ./service_snapshot:/home/node/html
-      - service_snapshot_nodemodules:/home/node/html/node_modules
-volumes:
-  service_snapshot_nodemodules:
-```
-
----
-
-# Docker
-
-<!-- .slide: data-background="media/img/docker-containers.jpeg" -->
-
-<img src="media/img/docker-compose-up.gif">
-
----
-
-# Microservices
-
-<!-- .slide: data-background="media/img/microservices2.jpg" .test -->
-
-<!-- NOTES -->
-- Each piece is completely independant
-- Can add remove feature much easier
-- Can mix different technologies
-
----
-
-# Microservices
-
-<!-- .slide: data-background="media/img/microservices2.jpg" -->
+<!-- .slide: data-background="media/img/vr-bg.jpg" -->
 
 <div id="microservices">
   <img src="media/img/diagram.jpeg">
@@ -926,14 +699,8 @@ volumes:
 
 ---
 
-# GraphQL
-
-<img src="media/img/graphql.gif">
-
-<!-- NOTES -->
-- Graphical Query language
-- Successor to REST
-- Lots of differnt infustructure built around graphql
+- microservice based apps w/ Docker
+- embrace web technology
 
 ------
 
