@@ -11,6 +11,27 @@
 - Onboard web developers into the 3D and VR world with easy-to-use tools
 - Prototype WebVR experiences faster
 
+---
+
+# About Me
+
+<div class="media-left">
+  <div class="left">
+    <img src="media/img/mike.jpg">
+    <a href="https://github.com/heymp" style="font-size:.6em;">https://github.com/heymp</a>
+    <a href="http://odl.science.psu.edu" style="font-size:.6em;">http://odl.science.psu.edu</a>
+  </div>
+  <div class="right">
+    <ul>
+      <li>Michael Potter</li>
+      <li>Educational Technologist</li>
+      <li>Penn State University</li>
+      <li>Core contributor to [ELMS Learning Network](https://github.com/elmsln/elmsln)</li>
+    </ul>
+  </div>
+</div>
+
+
 ------
 
 # Virtual Reality

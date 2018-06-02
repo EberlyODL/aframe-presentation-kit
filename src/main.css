@@ -584,6 +584,21 @@ psu-logo {
   margin: auto;
 }
 
-#docker {
-  
+.media-left {
+  display: flex;
+}
+
+.media-left .right {
+  display: flex;
+  flex: 0 2 auto;
+  overflow: hidden;
+  padding-left: 1em;
+}
+
+.media-left .left {
+  display: flex;
+  flex: 0 1 auto;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: left;
 }
