@@ -675,6 +675,36 @@ iStaging
 
 <a href="https://sputnik.surge.sh/" target="_blank">https://sputnik.surge.sh/</a>
 
+---
+
+# Interactive 360 Video
+
+<!-- .slide: data-background="media/img/wc-library.png" -->
+
+<a href="https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_1/" target="_blank">https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_1/</a>
+<br>
+Credit: Seto Kaiba, Penn State World Campus
+
+---
+
+# Guided Tour
+
+<!-- .slide: data-background="media/img/wc-guided-tour.png" -->
+
+<a href="https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_3/" target="_blank">https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_3/</a>
+<br>
+Credit: Seto Kaiba, Penn State World Campus
+
+---
+
+# Animation w/ Sound
+
+<!-- .slide: data-background="media/img/wc-sound.png" -->
+
+<a href="https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_5/" target="_blank">https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_5/</a>
+<br>
+Credit: Seto Kaiba, Penn State World Campus
+
 ------
 
 # How do we integrate all of this new web weirdness?
@@ -684,6 +714,8 @@ iStaging
 ---
 
 # Virtual Crime Scene
+
+<a href="https://github.com/EberlyODL/vr-app">https://github.com/EberlyODL/vr-app</a>
 
 <img src="media/img/vr-homepage.png">
 
@@ -699,7 +731,11 @@ iStaging
 
 ---
 
-- microservice based apps w/ Docker
+# Methodology for Managing Chaos
+
+- microservice based apps (Docker)
+- decouple functionality to front-end (Web Components)
+- headless API based integrations (REST, GraphQL)
 - embrace web technology
 
 ------
