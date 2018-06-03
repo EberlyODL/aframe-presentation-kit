@@ -674,14 +674,6 @@ iStaging
 
 ---
 
-# AR Demo
-
-<!-- .slide: data-background="media/img/demo-vr-skull.png" -->
-
-<a href="https://odl-skull.surge.sh" target="_blank">https://odl-skull.surge.sh</a>
-
----
-
 # Multiple Cameras
 
 <!-- .slide: data-background="media/img/odl-multi-cam.png" -->
@@ -725,6 +717,20 @@ Credit: Seto Kaiba, Penn State World Campus
 <a href="https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_5/" target="_blank">https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_5/</a>
 <br>
 Credit: Seto Kaiba, Penn State World Campus
+
+---
+
+# AR Demo
+
+<!-- .slide: data-background="media/img/demo-vr-skull.png" -->
+
+<a href="https://odl-skull.surge.sh" target="_blank">https://odl-skull.surge.sh</a>
+
+------
+
+<!-- .slide: data-background="media/img/live-demo.png" -->
+
+# LIVE CODE
 
 ------
 
