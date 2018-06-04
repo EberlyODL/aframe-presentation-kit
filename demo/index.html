@@ -9,12 +9,11 @@
     AFRAME.registerComponent('hide-seek', {
       init: function () {
         this.el.addEventListener('click', function (e) {
-          console.log(e)
-          // this.removeAttribute('random-position')
-          // this.removeAttribute('random-rotation')
-          // this.setAttribute('random-position', 'min: -10 0 -10')
-          // this.setAttribute('random-rotation', true)
-          // this.emit('hide-seek', { action: 'found' })
+          this.removeAttribute('random-position')
+          this.removeAttribute('random-rotation')
+          this.setAttribute('random-position', 'min: -10 0 -10')
+          this.setAttribute('random-rotation', true)
+          this.emit('hide-seek', { action: 'found' })
         });
       }
     });
@@ -23,6 +22,14 @@
 
 <body>
   <a-scene>
+    <a-entity environment></a-entity>
+    <a-box hide-seek position="0 3 -3" material="src:assets/apereo.jpg" geometry="" rotation="0 243.44639999998614 0">
+      <a-animation attribute="rotation" to="0 360 0" repeat="infinite" easing="linear" dur="10000"></a-animation>
+    </a-box>
+
+    <a-camera>
+      <a-cursor material="color:orange"></a-cursor>
+    </a-camera>
   </a-scene>
 </body>
 
