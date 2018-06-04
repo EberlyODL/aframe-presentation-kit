@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
   <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
   <script src="https://unpkg.com/aframe-look-at-component@0.5.1/dist/aframe-look-at-component.min.js"></script>
   <script src="https://unpkg.com/aframe-randomizer-components@^3.0.1/dist/aframe-randomizer-components.min.js"></script>
@@ -11,9 +11,9 @@
         this.el.addEventListener('click', function (e) {
           this.removeAttribute('random-position')
           this.removeAttribute('random-rotation')
-
           this.setAttribute('random-position', 'min: -10 0 -10')
           this.setAttribute('random-rotation', true)
+          this.emit('hide-seek', { action: 'found' })
         });
       }
     });
@@ -22,24 +22,15 @@
 
 <body>
   <a-scene>
-    <a-assets>
-      <img id="apereoLogo" src="assets/apereo.jpg">
-    </a-assets>
-
     <a-entity environment></a-entity>
 
-    <a-entity position="0 2 -1">
-      <a-box hide-seek position="0 0.2 -2">
-        <a-animation attribute="rotation"
-          dur="10000"
-          fill="forwards"
-          to="0 360 0"
-          easing="linear"
-          repeat="indefinite"></a-animation>
-      </a-box>
-    </a-entity>
-
-    <a-camera position="0 1 0" wasd-controls="fly: true" look-controls="reverseMouseDrag: true; pointerLockEnabled: true"> </a-camera>
+    <a-box hide-seek position="0 3 -3 "material="src: assets/apereo.jpg">
+      <a-animation attribute="rotation" to="0 360 0" easing="linear" repeat="indefinite" dur="10000"></a-animation>
+    </a-box>
+    
+    <a-camera camera="active:true" position="0 1.6 0" rotation="10.657 -5.959 0" look-controls="pointerLockEnabled:true" wasd-controls="fly:true" data-aframe-inspector-original-camera="">
+      <a-cursor material="color: orange"></a-cursor>
+    </a-camera>
   </a-scene>
 </body>
 
