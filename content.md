@@ -744,7 +744,7 @@ Credit: Seto Kaiba, Penn State World Campus
 
 <a href="https://github.com/EberlyODL/vr-app">https://github.com/EberlyODL/vr-app</a>
 
-<img src="media/img/vr-homepage.png">
+<img src="media/img/vr-app-example2.gif">
 
 ---
 
