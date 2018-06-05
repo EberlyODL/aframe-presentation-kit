@@ -732,6 +732,8 @@ Credit: Seto Kaiba, Penn State World Campus
 
 # LIVE CODE
 
+[finished demo](https://apereovr.surge.sh)
+
 ------
 
 # How do we integrate all of this new web weirdness?
