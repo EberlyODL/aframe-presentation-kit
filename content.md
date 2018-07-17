@@ -674,6 +674,14 @@ iStaging
 
 ---
 
+# Hotspot Popup
+
+<!-- .slide: data-background="media/img/hotspot-popup.png" -->
+
+<a href="http://odl-hotspots.surge.sh/" target="_blank">http://odl-hotspots.surge.sh/</a>
+
+---
+
 # Multiple Cameras
 
 <!-- .slide: data-background="media/img/odl-multi-cam.png" -->
