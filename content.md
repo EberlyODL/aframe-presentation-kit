@@ -728,7 +728,7 @@ Credit: Seto Kaiba, Penn State World Campus
 
 # LIVE CODE
 
-<!-- [finished demo](https://apereovr.surge.sh) -->
+<a href="https://ldsc2018.surge.sh">https://ldsc2018.surge.sh</a>
 
 ------
 
