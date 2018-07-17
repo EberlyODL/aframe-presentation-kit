@@ -690,31 +690,11 @@ iStaging
 
 ---
 
-# Interactive 360 Video
+# Multiple Rooms
 
 <!-- .slide: data-background="media/img/wc-library.png" -->
 
-<a href="https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_1/" target="_blank">https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_1/</a>
-<br>
-Credit: Seto Kaiba, Penn State World Campus
-
----
-
-# Guided Tour
-
-<!-- .slide: data-background="media/img/wc-guided-tour.png" -->
-
-<a href="https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_3/" target="_blank">https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_3/</a>
-<br>
-Credit: Seto Kaiba, Penn State World Campus
-
----
-
-# Animation w/ Sound
-
-<!-- .slide: data-background="media/img/wc-sound.png" -->
-
-<a href="https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_5/" target="_blank">https://courses.worldcampus.psu.edu/public/titanium/demo/a-frame_5/</a>
+<a href="https://courses.worldcampus.psu.edu/public/titanium/demo/vr_demo/" target="_blank">World Campus Demos</a>
 <br>
 Credit: Seto Kaiba, Penn State World Campus
 
@@ -726,46 +706,30 @@ Credit: Seto Kaiba, Penn State World Campus
 
 <a href="https://odl-skull.surge.sh" target="_blank">https://odl-skull.surge.sh</a>
 
+---
+
+# Chemical Reaction Lab
+
+<!-- .slide: data-background="media/img/chemlab.png" -->
+
+<a href="http://odl-crl-v1_0_7.surge.sh/" target="_blank">http://odl-crl-v1_0_7.surge.sh/</a>
+
 ------
 
 <!-- .slide: data-background="media/img/live-demo.png" -->
 
 # LIVE CODE
 
-[finished demo](https://apereovr.surge.sh)
+<!-- [finished demo](https://apereovr.surge.sh) -->
 
 ------
 
-# How do we integrate all of this new web weirdness?
+# Key Takeaways
 
-<!-- .slide: data-background="media/img/vr-bg.jpg" -->
-
----
-
-# Virtual Crime Scene
-
-<a href="https://github.com/EberlyODL/vr-app">https://github.com/EberlyODL/vr-app</a>
-
-<img src="media/img/vr-app-example2.gif">
-
----
-
-# VR App Diagram
-
-<!-- .slide: data-background="media/img/vr-bg.jpg" -->
-
-<div id="microservices">
-  <img src="media/img/diagram.jpeg">
-</div>
-
----
-
-# Methodology for Managing Chaos
-
-- microservice based apps (Docker)
-- decouple functionality to front-end (Web Components)
-- headless API based integrations (REST, GraphQL)
-- embrace web technology
+- WebVR is hot right now
+- Traditional WebVR is difficult to produce
+- A-Frame makes WebVR way easier to work with
+- Tell all of your friends :)
 
 ------
 
